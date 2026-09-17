@@ -15,5 +15,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
-          tags: numshv/hello-app:${{ github.sha }}
+          tags: numshv/hello-app:latest
