@@ -16,4 +16,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: <username-dockerhub>/hello-app:${{ github.sha }}
+          tags: numshv/hello-app:${{ github.sha }}
